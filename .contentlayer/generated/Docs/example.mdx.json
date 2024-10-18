@@ -14,5 +14,31 @@
   },
   "type": "Docs",
   "slug": "/example",
-  "slugAsParams": ""
+  "slugAsParams": "",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Example"
+    },
+    {
+      "level": 2,
+      "text": "Table of Contents"
+    },
+    {
+      "level": 2,
+      "text": "Code Snippets"
+    },
+    {
+      "level": 2,
+      "text": "Tables"
+    },
+    {
+      "level": 2,
+      "text": "Links"
+    },
+    {
+      "level": 2,
+      "text": "Interactive Components"
+    }
+  ]
 }

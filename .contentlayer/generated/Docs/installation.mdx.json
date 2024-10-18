@@ -14,5 +14,15 @@
   },
   "type": "Docs",
   "slug": "/installation",
-  "slugAsParams": ""
+  "slugAsParams": "",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Installation"
+    },
+    {
+      "level": 2,
+      "text": "Prerequisites"
+    }
+  ]
 }

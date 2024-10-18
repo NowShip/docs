@@ -13,6 +13,23 @@ const computedFields = {
     type: "string",
     resolve: (doc) => doc._raw.flattenedPath.split("/").slice(1).join("/"),
   },
+  headings: {
+    type: "array",
+    resolve: async (doc) => {
+      const headings = [];
+      const regex = /^(#{1,6})\s+(.+)$/gm;
+      let match;
+
+      while ((match = regex.exec(doc.body.raw)) !== null) {
+        headings.push({
+          level: match[1].length,
+          text: match[2],
+        });
+      }
+
+      return headings;
+    },
+  },
 };
 
 const Docs = defineDocumentType(() => ({

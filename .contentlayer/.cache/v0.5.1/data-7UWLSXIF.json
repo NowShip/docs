@@ -17,7 +17,33 @@
         },
         "type": "Docs",
         "slug": "/blog-post",
-        "slugAsParams": ""
+        "slugAsParams": "",
+        "headings": [
+          {
+            "level": 1,
+            "text": "The Wonders of Our Universe: A Cosmic Journey"
+          },
+          {
+            "level": 2,
+            "text": "The Beginning: The Big Bang"
+          },
+          {
+            "level": 2,
+            "text": "Galaxies: Islands of Stars"
+          },
+          {
+            "level": 2,
+            "text": "Stars: Cosmic Furnaces"
+          },
+          {
+            "level": 2,
+            "text": "Planets and Exoplanets: Worlds Beyond Our Own"
+          },
+          {
+            "level": 2,
+            "text": "Conclusion"
+          }
+        ]
       },
       "documentHash": "1729260432131",
       "hasWarnings": false,
@@ -40,7 +66,33 @@
         },
         "type": "Docs",
         "slug": "/example",
-        "slugAsParams": ""
+        "slugAsParams": "",
+        "headings": [
+          {
+            "level": 1,
+            "text": "Example"
+          },
+          {
+            "level": 2,
+            "text": "Table of Contents"
+          },
+          {
+            "level": 2,
+            "text": "Code Snippets"
+          },
+          {
+            "level": 2,
+            "text": "Tables"
+          },
+          {
+            "level": 2,
+            "text": "Links"
+          },
+          {
+            "level": 2,
+            "text": "Interactive Components"
+          }
+        ]
       },
       "documentHash": "1729220042106",
       "hasWarnings": false,
@@ -63,7 +115,17 @@
         },
         "type": "Docs",
         "slug": "/installation",
-        "slugAsParams": ""
+        "slugAsParams": "",
+        "headings": [
+          {
+            "level": 1,
+            "text": "Installation"
+          },
+          {
+            "level": 2,
+            "text": "Prerequisites"
+          }
+        ]
       },
       "documentHash": "1729218751187",
       "hasWarnings": false,
